@@ -29,8 +29,7 @@ func buildCliApp() (cliApp *cli.App) {
 	app.Usage = "A Go app designed to solve Sudoku puzzles"
 
 	// setting author
-	app.Authors = []cli.Author{
-		cli.Author{
+	app.Authors = []cli.Author{{
 			Name:  "Juan Mauricio Prat",
 			Email: "jmorrispratt@gmail.com",
 		},

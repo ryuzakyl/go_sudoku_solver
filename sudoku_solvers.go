@@ -5,9 +5,6 @@ package main
 
 // --------------------------------------
 
-// sudoku board
-var board []int
-
 // board length (i.e. 81)
 var boardLength int
 

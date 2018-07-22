@@ -46,7 +46,7 @@ func PrintSudokuBoard(b []int) {
 func getEmptyPositions(board []int) []int {
 	var result []int
 
-	// getting empy position indexes
+	// getting empty position indexes
 	for i := 0; i < boardLength; i++ {
 		if board[i] == 0 {
 			result = append(result, i)
@@ -146,7 +146,7 @@ func setDiff(a []int, b []int) []int {
 				break
 			}
 		}
-		// if current item was not foud in the other 'set'
+		// if current item was not found in the other 'set'
 		if !found {
 			diff = append(diff, a[i])
 		}
