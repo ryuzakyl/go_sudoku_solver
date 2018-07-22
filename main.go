@@ -30,13 +30,13 @@ func buildCliApp() (cliApp *cli.App) {
 
 	// setting author
 	app.Authors = []cli.Author{{
-			Name:  "Juan Mauricio Prat",
-			Email: "jmorrispratt@gmail.com",
+			Name:  "L",
+			Email: "ryuzakyl@gmail.com",
 		},
 	}
 
 	// setting app version
-	app.Version = "0.0.1"
+	app.Version = "0.1.0"
 
 	// setting commands
 	app.Commands = []cli.Command{
